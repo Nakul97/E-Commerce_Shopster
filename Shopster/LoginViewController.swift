@@ -96,15 +96,7 @@ class LoginViewController: UIViewController ,SJFluidSegmentedControlDataSource,S
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.EnterDetails.bounds.size.width - 20, height: EnterDetails.frame.height);
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     func pickImage(){
         imagePicker.allowsEditing = false
         imagePicker.sourceType = .camera
