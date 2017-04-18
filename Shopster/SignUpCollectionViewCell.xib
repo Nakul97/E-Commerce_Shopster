@@ -63,18 +63,21 @@
                         <textInputTraits key="textInputTraits"/>
                     </textField>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmu-YZ-LPs">
-                        <rect key="frame" x="105" y="300" width="50" height="30"/>
+                        <rect key="frame" x="86" y="300" width="88" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="9wt-s2-q7a"/>
                         </constraints>
-                        <state key="normal" title="SignUp"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="SignUp">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
                         <connections>
                             <action selector="SignUpUser:" destination="gTV-IL-0wX" eventType="touchUpInside" id="mPt-aX-Oi5"/>
                         </connections>
                     </button>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.81577044475959792" green="0.87058823529411766" blue="0.41506746286264806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.29075680398055559" blue="0.31509682648944448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="oQK-o9-jRn" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="3nJ-5g-tKi"/>
                 <constraint firstItem="PVZ-Um-pbw" firstAttribute="top" secondItem="oQK-o9-jRn" secondAttribute="bottom" constant="20" id="6D3-Bu-xLr"/>
@@ -85,7 +88,7 @@
                 <constraint firstItem="qqu-bn-whb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="Gje-nW-h1y"/>
                 <constraint firstItem="hkU-wb-12b" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="GxI-Qg-eZr"/>
                 <constraint firstItem="oQK-o9-jRn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="JJJ-VJ-bVN"/>
-                <constraint firstAttribute="trailing" secondItem="Mmu-YZ-LPs" secondAttribute="trailing" constant="105" id="Ofo-XR-pXK"/>
+                <constraint firstAttribute="trailing" secondItem="Mmu-YZ-LPs" secondAttribute="trailing" constant="86" id="Ofo-XR-pXK"/>
                 <constraint firstItem="PVZ-Um-pbw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="TjE-J2-tr3"/>
                 <constraint firstItem="20W-6L-fed" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="XSE-I8-Rzb"/>
                 <constraint firstItem="Mmu-YZ-LPs" firstAttribute="top" secondItem="20W-6L-fed" secondAttribute="bottom" constant="29" id="bIz-my-QaZ"/>
@@ -94,7 +97,7 @@
                 <constraint firstItem="qqu-bn-whb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="jG4-3C-FiI"/>
                 <constraint firstItem="20W-6L-fed" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="jRv-gz-bCh"/>
                 <constraint firstItem="oQK-o9-jRn" firstAttribute="top" secondItem="qqu-bn-whb" secondAttribute="bottom" constant="21" id="oWa-x6-0o8"/>
-                <constraint firstItem="Mmu-YZ-LPs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="105" id="xc0-B2-S1y"/>
+                <constraint firstItem="Mmu-YZ-LPs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="86" id="xc0-B2-S1y"/>
                 <constraint firstAttribute="trailing" secondItem="PVZ-Um-pbw" secondAttribute="trailing" constant="8" id="zNw-UX-aSX"/>
                 <constraint firstItem="PVZ-Um-pbw" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="zzD-vL-Fnw"/>
             </constraints>

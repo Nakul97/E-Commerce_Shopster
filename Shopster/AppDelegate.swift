@@ -30,7 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UserDefaults.standard.set(" ", forKey:"Password")
         }
         FIRApp.configure()
-
+        UINavigationBar.appearance().barTintColor = UIColor(red: 242/256, green: 38/256, blue: 19/256, alpha: 1.0)
+        UITabBar.appearance().tintColor = UIColor(red: 242/256, green: 38/256, blue: 19/256, alpha: 1.0)
         return true
     }
 

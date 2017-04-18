@@ -37,16 +37,19 @@
                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                     </textField>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wl6-vh-8Ps">
-                        <rect key="frame" x="115" y="300" width="38" height="30"/>
+                        <rect key="frame" x="86" y="300" width="88" height="30"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <state key="normal" title="Login"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="Login">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
                         <connections>
                             <action selector="Login:" destination="gTV-IL-0wX" eventType="touchUpInside" id="RzA-KQ-pBv"/>
                         </connections>
                     </button>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.82084866912595678" green="1" blue="0.81649377620622232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.94901960780000005" green="0.29075680399999998" blue="0.31509682649999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="NrE-vJ-mO5" secondAttribute="trailing" constant="8" id="3WC-M2-XCP"/>
                 <constraint firstAttribute="trailing" secondItem="apP-3y-ASK" secondAttribute="trailing" constant="8" id="9Ti-xc-04L"/>

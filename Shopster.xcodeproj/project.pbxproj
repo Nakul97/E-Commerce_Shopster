@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FA788561EA414F900A74763 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA788551EA414F900A74763 /* NavigationView.swift */; };
+		9FA788581EA4150E00A74763 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA788571EA4150E00A74763 /* NavigationView.xib */; };
 		9FE96A551E7491EE001DA435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A541E7491EE001DA435 /* AppDelegate.swift */; };
 		9FE96A571E7491EE001DA435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A561E7491EE001DA435 /* ViewController.swift */; };
 		9FE96A5A1E7491EE001DA435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE96A581E7491EE001DA435 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		536CD4732B41D91B45B399BD /* Pods-Shopster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopster/Pods-Shopster.debug.xcconfig"; sourceTree = "<group>"; };
 		618419A69882B58F608B5E39 /* Pods-Shopster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shopster/Pods-Shopster.release.xcconfig"; sourceTree = "<group>"; };
+		9FA788551EA414F900A74763 /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		9FA788571EA4150E00A74763 /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
 		9FE96A511E7491EE001DA435 /* Shopster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE96A541E7491EE001DA435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE96A561E7491EE001DA435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FA788521EA4143700A74763 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FE96A561E7491EE001DA435 /* ViewController.swift */,
+				9FA788571EA4150E00A74763 /* NavigationView.xib */,
+				9FA788551EA414F900A74763 /* NavigationView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		9FE96A481E7491EE001DA435 = {
 			isa = PBXGroup;
 			children = (
@@ -75,11 +89,11 @@
 		9FE96A531E7491EE001DA435 /* Shopster */ = {
 			isa = PBXGroup;
 			children = (
+				9FE96A681E7498FB001DA435 /* Login */,
+				9FA788521EA4143700A74763 /* Home */,
 				9FE96A541E7491EE001DA435 /* AppDelegate.swift */,
-				9FE96A561E7491EE001DA435 /* ViewController.swift */,
 				9FE96A751E755CC7001DA435 /* GoogleService-Info.plist */,
 				9FE96A581E7491EE001DA435 /* Main.storyboard */,
-				9FE96A681E7498FB001DA435 /* Login */,
 				9FE96A5B1E7491EE001DA435 /* Assets.xcassets */,
 				9FE96A5D1E7491EE001DA435 /* LaunchScreen.storyboard */,
 				9FE96A601E7491EE001DA435 /* Info.plist */,
@@ -186,6 +200,7 @@
 				9FE96A5C1E7491EE001DA435 /* Assets.xcassets in Resources */,
 				9FE96A5A1E7491EE001DA435 /* Main.storyboard in Resources */,
 				9FE96A761E755CC7001DA435 /* GoogleService-Info.plist in Resources */,
+				9FA788581EA4150E00A74763 /* NavigationView.xib in Resources */,
 				9FE96A7C1E757C42001DA435 /* plus-4-48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +264,7 @@
 				9FE96A671E74932A001DA435 /* LoginViewController.swift in Sources */,
 				9FE96A731E74AD36001DA435 /* SignUpCollectionViewCell.swift in Sources */,
 				9FE96A571E7491EE001DA435 /* ViewController.swift in Sources */,
+				9FA788561EA414F900A74763 /* NavigationView.swift in Sources */,
 				9FE96A551E7491EE001DA435 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

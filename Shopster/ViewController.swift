@@ -35,7 +35,10 @@ class ViewController: UIViewController {
             }
             
         }
-
+        
+        let Navigation = NavigationView(frame : CGRect(x: 0, y: 0, width: 400, height: 30))
+        self.navigationItem.titleView = Navigation
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
