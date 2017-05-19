@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -32,6 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         UINavigationBar.appearance().barTintColor = UIColor(red: 242/256, green: 38/256, blue: 19/256, alpha: 1.0)
         UITabBar.appearance().tintColor = UIColor(red: 242/256, green: 38/256, blue: 19/256, alpha: 1.0)
+        GMSServices.provideAPIKey("AIzaSyBFE0tzMSgsQznTD4gwbWeOah3zieEEJ4w")
+        GMSPlacesClient.provideAPIKey("AIzaSyBFE0tzMSgsQznTD4gwbWeOah3zieEEJ4w")
         return true
     }
 

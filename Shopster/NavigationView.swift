@@ -8,6 +8,15 @@
 
 import UIKit
 
+protocol OpenCartView{
+    func OpenCart()
+}
+
+protocol OpenListView{
+    func OpenList()
+}
+
+
 class NavigationView: UIView {
 
     /*
@@ -17,6 +26,18 @@ class NavigationView: UIView {
         // Drawing code
     }
     */
+
+    var CartView: OpenCartView?
+    var ListView: OpenListView?
+    
+    @IBAction func ListView(_ sender: Any) {
+        self.ListView?.OpenList()
+    }
+    
+    @IBAction func CartView(_ sender: Any) {
+        self.CartView?.OpenCart()
+    }
+    
     @IBOutlet var NavigationTitleView: UIView!
     override func awakeFromNib() {
         UINib(nibName: "NavigationView", bundle: nil).instantiate(withOwner: self, options: nil)
@@ -26,6 +47,7 @@ class NavigationView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
         UINib(nibName: "NavigationView", bundle: nil).instantiate(withOwner: self, options: nil)
         addSubview(NavigationTitleView)
         NavigationTitleView.frame = self.bounds

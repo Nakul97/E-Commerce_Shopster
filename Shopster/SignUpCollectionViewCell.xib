@@ -110,7 +110,7 @@
                 <outlet property="UserPassword" destination="hkU-wb-12b" id="8fq-07-YwS"/>
                 <outlet property="UserPhone" destination="20W-6L-fed" id="uQc-q1-Hl1"/>
             </connections>
-            <point key="canvasLocation" x="-24" y="18"/>
+            <point key="canvasLocation" x="85" y="27"/>
         </collectionViewCell>
     </objects>
     <resources>

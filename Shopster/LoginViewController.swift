@@ -103,6 +103,7 @@ class LoginViewController: UIViewController ,SJFluidSegmentedControlDataSource,S
         present(imagePicker, animated: true, completion: nil)
     }
     func dismissNow(){
+        
         dismiss(animated: true, completion: nil)
     }
     

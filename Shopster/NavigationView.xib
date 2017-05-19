@@ -32,6 +32,9 @@
                         <constraint firstAttribute="width" constant="26" id="cWG-8u-X6n"/>
                     </constraints>
                     <state key="normal" image="Cart"/>
+                    <connections>
+                        <action selector="CartView:" destination="-1" eventType="touchUpInside" id="Fzs-rv-lZp"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKJ-Fz-S7Y">
                     <rect key="frame" x="276" y="2" width="26" height="26"/>
@@ -40,6 +43,9 @@
                         <constraint firstAttribute="height" constant="26" id="ho1-i5-aar"/>
                     </constraints>
                     <state key="normal" image="WishList"/>
+                    <connections>
+                        <action selector="ListView:" destination="-1" eventType="touchUpInside" id="1ms-ch-gSc"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C98-YU-1kp">
                     <rect key="frame" x="232" y="2" width="26" height="26"/>
@@ -67,7 +73,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="7" y="93"/>
+            <point key="canvasLocation" x="-174" y="69"/>
         </view>
     </objects>
     <resources>

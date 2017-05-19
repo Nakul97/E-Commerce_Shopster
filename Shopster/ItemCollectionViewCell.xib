@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ItemCollectionViewCell" customModule="Shopster" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Items" id="gTV-IL-0wX" customClass="ItemCollectionViewCell" customModule="Shopster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="177" height="221"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="177" height="221"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SampleImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xkl-ae-DVy">
+                        <rect key="frame" x="8" y="5" width="161" height="156"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Xkl-ae-DVy" secondAttribute="height" multiplier="28:25" constant="-13.440000000000026" id="s83-Vx-pEF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sv8-HA-Bhv">
+                        <rect key="frame" x="8" y="195" width="85" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="Vp1-gm-EpR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOB-Zt-P7w">
+                        <rect key="frame" x="8" y="171" width="161" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.63709173256975737" green="0.63709173256975737" blue="0.63709173256975737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unliked" translatesAutoresizingMaskIntoConstraints="NO" id="xlj-9a-BQ8">
+                        <rect key="frame" x="149" y="196" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="VVB-is-dgd"/>
+                            <constraint firstAttribute="height" constant="20" id="izP-zb-QVS"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddCart" translatesAutoresizingMaskIntoConstraints="NO" id="N5B-La-P9T">
+                        <rect key="frame" x="114" y="196" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="MC3-ST-clW"/>
+                            <constraint firstAttribute="height" constant="20" id="uKy-gL-h9E"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uOB-Zt-P7w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="1cT-Ow-ujJ"/>
+                <constraint firstItem="Sv8-HA-Bhv" firstAttribute="top" secondItem="uOB-Zt-P7w" secondAttribute="bottom" constant="8" id="9Q2-ic-y6b"/>
+                <constraint firstAttribute="bottom" secondItem="xlj-9a-BQ8" secondAttribute="bottom" constant="5" id="Cyr-pr-qcl"/>
+                <constraint firstItem="Xkl-ae-DVy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="GSe-Et-kkR"/>
+                <constraint firstItem="Sv8-HA-Bhv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="HoE-9h-R8N"/>
+                <constraint firstAttribute="bottom" secondItem="xlj-9a-BQ8" secondAttribute="bottom" constant="5" id="LPJ-F8-dhM"/>
+                <constraint firstItem="xlj-9a-BQ8" firstAttribute="top" secondItem="uOB-Zt-P7w" secondAttribute="bottom" constant="9" id="PQO-z5-qqF"/>
+                <constraint firstAttribute="bottom" secondItem="N5B-La-P9T" secondAttribute="bottom" constant="5" id="RcB-p7-YL2"/>
+                <constraint firstItem="N5B-La-P9T" firstAttribute="top" secondItem="uOB-Zt-P7w" secondAttribute="bottom" constant="9" id="WG7-NN-e0p"/>
+                <constraint firstAttribute="bottom" secondItem="N5B-La-P9T" secondAttribute="bottom" constant="5" id="aN9-Jw-ewW"/>
+                <constraint firstAttribute="trailing" secondItem="Xkl-ae-DVy" secondAttribute="trailing" constant="8" id="dOD-eN-ZYa"/>
+                <constraint firstAttribute="trailing" secondItem="xlj-9a-BQ8" secondAttribute="trailing" constant="8" id="gNK-Dy-W0s"/>
+                <constraint firstItem="Xkl-ae-DVy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="lfN-Y9-uR3"/>
+                <constraint firstItem="xlj-9a-BQ8" firstAttribute="leading" secondItem="N5B-La-P9T" secondAttribute="trailing" constant="15" id="pau-Qb-HKz"/>
+                <constraint firstAttribute="trailing" secondItem="uOB-Zt-P7w" secondAttribute="trailing" constant="8" id="rqH-Qr-5Od"/>
+                <constraint firstAttribute="bottom" secondItem="Sv8-HA-Bhv" secondAttribute="bottom" constant="5" id="zqy-Ga-NWP"/>
+            </constraints>
+            <size key="customSize" width="177" height="120"/>
+            <connections>
+                <outlet property="Cart" destination="N5B-La-P9T" id="RzN-3F-YdO"/>
+                <outlet property="Like" destination="xlj-9a-BQ8" id="B0t-c5-MVs"/>
+                <outlet property="ProductImage" destination="Xkl-ae-DVy" id="RKQ-Zl-AUY"/>
+                <outlet property="ProductName" destination="uOB-Zt-P7w" id="5uw-9L-IXY"/>
+                <outlet property="ProductPrice" destination="Sv8-HA-Bhv" id="x2o-KV-nlN"/>
+            </connections>
+            <point key="canvasLocation" x="134.5" y="93.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="AddCart" width="24" height="24"/>
+        <image name="SampleImage.jpg" width="1500" height="1500"/>
+        <image name="Unliked" width="24" height="24"/>
+    </resources>
+</document>

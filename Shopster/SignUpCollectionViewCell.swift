@@ -79,6 +79,17 @@ class SignUpCollectionViewCell: UICollectionViewCell,UIImagePickerControllerDele
                     changeRequest?.displayName = self.UserName.text
                     changeRequest?.photoURL = downloadURL()
                     print("succesfulSignUP")
+                    UserDefaults.standard.set(user?.uid, forKey:"Uid")
+                    UserDefaults.standard.set(user?.email, forKey:"Username")
+                    UserDefaults.standard.set(password, forKey:"Password")
+                    let updateRef = FIRDatabase.database().reference().child("Users")
+                    if let user1 = user{
+                        updateRef.updateChildValues(["\(user1.uid)" as String! : [ "Cart" : [], "Contact" : "\(self.UserPhone.text!)", "List" : [ ], "M-Wallet" :"0",
+                            "Name" : "\(self.UserName.text!)",
+                            "Orders" : [[ ]]
+                        ]])
+                        let addCart = updateRef.child("\(user1.uid)" as String!)
+                    }
                     self.SignUp1?.dismissNow()
                     changeRequest?.commitChanges() { (error) in
                         print(error as Any)

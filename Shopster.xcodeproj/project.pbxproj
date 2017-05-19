@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4015341EB7EAA100621525 /* CartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4015331EB7EAA100621525 /* CartsViewController.swift */; };
+		9F96DD061EAB95CB006900E2 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F96DD041EAB95CB006900E2 /* ItemCollectionViewCell.swift */; };
+		9F96DD071EAB95CB006900E2 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F96DD051EAB95CB006900E2 /* ItemCollectionViewCell.xib */; };
 		9FA788561EA414F900A74763 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA788551EA414F900A74763 /* NavigationView.swift */; };
 		9FA788581EA4150E00A74763 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA788571EA4150E00A74763 /* NavigationView.xib */; };
+		9FDD8E0A1EB4B6710087FA66 /* SampleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD8E091EB4B6710087FA66 /* SampleImage.jpg */; };
+		9FDD8E161EB4FE4F0087FA66 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8E151EB4FE4F0087FA66 /* iCarousel.m */; };
+		9FDD8E191EB4FF380087FA66 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8E181EB4FF380087FA66 /* CategoriesViewController.swift */; };
+		9FDD8E1F1EB5224C0087FA66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDD8E1E1EB5224B0087FA66 /* Assets.xcassets */; };
+		9FDD8E221EB63BC30087FA66 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8E211EB63BC30087FA66 /* OrdersViewController.swift */; };
+		9FDD8E271EB6417C0087FA66 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD8E261EB6417C0087FA66 /* UsersViewController.swift */; };
 		9FE96A551E7491EE001DA435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A541E7491EE001DA435 /* AppDelegate.swift */; };
 		9FE96A571E7491EE001DA435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A561E7491EE001DA435 /* ViewController.swift */; };
 		9FE96A5A1E7491EE001DA435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE96A581E7491EE001DA435 /* Main.storyboard */; };
-		9FE96A5C1E7491EE001DA435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE96A5B1E7491EE001DA435 /* Assets.xcassets */; };
 		9FE96A5F1E7491EE001DA435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE96A5D1E7491EE001DA435 /* LaunchScreen.storyboard */; };
 		9FE96A671E74932A001DA435 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A661E74932A001DA435 /* LoginViewController.swift */; };
 		9FE96A6F1E74AD1C001DA435 /* LoginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE96A6D1E74AD1C001DA435 /* LoginCollectionViewCell.swift */; };
@@ -27,13 +35,23 @@
 /* Begin PBXFileReference section */
 		536CD4732B41D91B45B399BD /* Pods-Shopster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shopster/Pods-Shopster.debug.xcconfig"; sourceTree = "<group>"; };
 		618419A69882B58F608B5E39 /* Pods-Shopster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shopster/Pods-Shopster.release.xcconfig"; sourceTree = "<group>"; };
+		9F4015331EB7EAA100621525 /* CartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartsViewController.swift; sourceTree = "<group>"; };
+		9F96DD041EAB95CB006900E2 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F96DD051EAB95CB006900E2 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		9FA788551EA414F900A74763 /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		9FA788571EA4150E00A74763 /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		9FDD8E091EB4B6710087FA66 /* SampleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleImage.jpg; sourceTree = "<group>"; };
+		9FDD8E131EB4FE4E0087FA66 /* Shopster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shopster-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FDD8E141EB4FE4F0087FA66 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		9FDD8E151EB4FE4F0087FA66 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		9FDD8E181EB4FF380087FA66 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		9FDD8E1E1EB5224B0087FA66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FDD8E211EB63BC30087FA66 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		9FDD8E261EB6417C0087FA66 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		9FE96A511E7491EE001DA435 /* Shopster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE96A541E7491EE001DA435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FE96A561E7491EE001DA435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FE96A591E7491EE001DA435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FE96A5B1E7491EE001DA435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FE96A5E1E7491EE001DA435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FE96A601E7491EE001DA435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FE96A661E74932A001DA435 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -58,14 +76,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F4015321EB7E45F00621525 /* Carts And Lists */ = {
+			isa = PBXGroup;
+			children = (
+				9F4015331EB7EAA100621525 /* CartsViewController.swift */,
+			);
+			name = "Carts And Lists";
+			sourceTree = "<group>";
+		};
 		9FA788521EA4143700A74763 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				9FE96A561E7491EE001DA435 /* ViewController.swift */,
+				9F96DD041EAB95CB006900E2 /* ItemCollectionViewCell.swift */,
+				9FDD8E091EB4B6710087FA66 /* SampleImage.jpg */,
+				9F96DD051EAB95CB006900E2 /* ItemCollectionViewCell.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		9FDD8E171EB4FEEB0087FA66 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8E181EB4FF380087FA66 /* CategoriesViewController.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9FDD8E201EB5255C0087FA66 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
 				9FA788571EA4150E00A74763 /* NavigationView.xib */,
 				9FA788551EA414F900A74763 /* NavigationView.swift */,
 			);
-			name = Home;
+			name = NavigationView;
+			sourceTree = "<group>";
+		};
+		9FDD8E231EB63BCA0087FA66 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8E211EB63BC30087FA66 /* OrdersViewController.swift */,
+			);
+			name = Orders;
+			sourceTree = "<group>";
+		};
+		9FDD8E251EB641390087FA66 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9FDD8E261EB6417C0087FA66 /* UsersViewController.swift */,
+			);
+			name = Users;
 			sourceTree = "<group>";
 		};
 		9FE96A481E7491EE001DA435 = {
@@ -89,14 +149,22 @@
 		9FE96A531E7491EE001DA435 /* Shopster */ = {
 			isa = PBXGroup;
 			children = (
+				9FDD8E201EB5255C0087FA66 /* NavigationView */,
 				9FE96A681E7498FB001DA435 /* Login */,
+				9F4015321EB7E45F00621525 /* Carts And Lists */,
 				9FA788521EA4143700A74763 /* Home */,
+				9FDD8E251EB641390087FA66 /* Users */,
+				9FDD8E231EB63BCA0087FA66 /* Orders */,
+				9FDD8E171EB4FEEB0087FA66 /* Categories */,
 				9FE96A541E7491EE001DA435 /* AppDelegate.swift */,
 				9FE96A751E755CC7001DA435 /* GoogleService-Info.plist */,
 				9FE96A581E7491EE001DA435 /* Main.storyboard */,
-				9FE96A5B1E7491EE001DA435 /* Assets.xcassets */,
 				9FE96A5D1E7491EE001DA435 /* LaunchScreen.storyboard */,
+				9FDD8E1E1EB5224B0087FA66 /* Assets.xcassets */,
 				9FE96A601E7491EE001DA435 /* Info.plist */,
+				9FDD8E141EB4FE4F0087FA66 /* iCarousel.h */,
+				9FDD8E131EB4FE4E0087FA66 /* Shopster-Bridging-Header.h */,
+				9FDD8E151EB4FE4F0087FA66 /* iCarousel.m */,
 			);
 			path = Shopster;
 			sourceTree = "<group>";
@@ -108,8 +176,8 @@
 				9FE96A711E74AD36001DA435 /* SignUpCollectionViewCell.swift */,
 				9FE96A721E74AD36001DA435 /* SignUpCollectionViewCell.xib */,
 				9FE96A7B1E757C42001DA435 /* plus-4-48.png */,
-				9FE96A6D1E74AD1C001DA435 /* LoginCollectionViewCell.swift */,
 				9FE96A6E1E74AD1C001DA435 /* LoginCollectionViewCell.xib */,
+				9FE96A6D1E74AD1C001DA435 /* LoginCollectionViewCell.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -167,6 +235,7 @@
 					9FE96A501E7491EE001DA435 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = FNXNAMCZQB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -195,11 +264,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE96A701E74AD1C001DA435 /* LoginCollectionViewCell.xib in Resources */,
+				9FDD8E0A1EB4B6710087FA66 /* SampleImage.jpg in Resources */,
+				9FDD8E1F1EB5224C0087FA66 /* Assets.xcassets in Resources */,
 				9FE96A741E74AD36001DA435 /* SignUpCollectionViewCell.xib in Resources */,
 				9FE96A5F1E7491EE001DA435 /* LaunchScreen.storyboard in Resources */,
-				9FE96A5C1E7491EE001DA435 /* Assets.xcassets in Resources */,
 				9FE96A5A1E7491EE001DA435 /* Main.storyboard in Resources */,
 				9FE96A761E755CC7001DA435 /* GoogleService-Info.plist in Resources */,
+				9F96DD071EAB95CB006900E2 /* ItemCollectionViewCell.xib in Resources */,
 				9FA788581EA4150E00A74763 /* NavigationView.xib in Resources */,
 				9FE96A7C1E757C42001DA435 /* plus-4-48.png in Resources */,
 			);
@@ -260,12 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4015341EB7EAA100621525 /* CartsViewController.swift in Sources */,
 				9FE96A6F1E74AD1C001DA435 /* LoginCollectionViewCell.swift in Sources */,
 				9FE96A671E74932A001DA435 /* LoginViewController.swift in Sources */,
+				9FDD8E191EB4FF380087FA66 /* CategoriesViewController.swift in Sources */,
+				9FDD8E271EB6417C0087FA66 /* UsersViewController.swift in Sources */,
 				9FE96A731E74AD36001DA435 /* SignUpCollectionViewCell.swift in Sources */,
 				9FE96A571E7491EE001DA435 /* ViewController.swift in Sources */,
+				9FDD8E221EB63BC30087FA66 /* OrdersViewController.swift in Sources */,
 				9FA788561EA414F900A74763 /* NavigationView.swift in Sources */,
+				9FDD8E161EB4FE4F0087FA66 /* iCarousel.m in Sources */,
 				9FE96A551E7491EE001DA435 /* AppDelegate.swift in Sources */,
+				9F96DD061EAB95CB006900E2 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,12 +464,15 @@
 			baseConfigurationReference = 536CD4732B41D91B45B399BD /* Pods-Shopster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = FNXNAMCZQB;
 				INFOPLIST_FILE = Shopster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Samples.asd.Shopster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shopster/Shopster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -402,12 +482,14 @@
 			baseConfigurationReference = 618419A69882B58F608B5E39 /* Pods-Shopster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = FNXNAMCZQB;
 				INFOPLIST_FILE = Shopster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Samples.asd.Shopster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shopster/Shopster-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

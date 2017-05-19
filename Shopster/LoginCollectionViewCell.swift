@@ -39,7 +39,7 @@ class LoginCollectionViewCell: UICollectionViewCell {
                     if(error == nil)
                     {
                      self.UserID = user?.uid
-                     UserDefaults.standard.set(self.UserID, forKey:"Uid")
+                     UserDefaults.standard.set(user?.uid, forKey:"Uid")
                      UserDefaults.standard.set(email, forKey:"Username")
                      UserDefaults.standard.set(password, forKey:"Password")
                         self.Login?.dismissNow()
